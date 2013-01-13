@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2750E77114CDB0DF007727A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750E77014CDB0DF007727A0 /* UIKit.framework */; };
+		2750E77314CDB0DF007727A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750E77214CDB0DF007727A0 /* Foundation.framework */; };
+		2750E77514CDB0DF007727A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750E77414CDB0DF007727A0 /* CoreGraphics.framework */; };
+		27FC94E314D105C60000B18C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FC94E214D105C60000B18C /* QuartzCore.framework */; };
+		7033BCA116A2527600B3920F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC8316A2527600B3920F /* AppDelegate.m */; };
+		7033BCA216A2527600B3920F /* TreeHouse-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7033BC8416A2527600B3920F /* TreeHouse-Info.plist */; };
+		7033BCA316A2527600B3920F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7033BC8616A2527600B3920F /* InfoPlist.strings */; };
+		7033BCA416A2527600B3920F /* FirstTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC8916A2527600B3920F /* FirstTopViewController.m */; };
+		7033BCA516A2527600B3920F /* InitialSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC8B16A2527600B3920F /* InitialSlidingViewController.m */; };
+		7033BCA616A2527600B3920F /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7033BC8C16A2527600B3920F /* iPad.storyboard */; };
+		7033BCA716A2527600B3920F /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7033BC8D16A2527600B3920F /* iPhone.storyboard */; };
+		7033BCA816A2527600B3920F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC8E16A2527600B3920F /* main.m */; };
+		7033BCA916A2527600B3920F /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC9016A2527600B3920F /* MenuViewController.m */; };
+		7033BCAA16A2527600B3920F /* NavigationTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC9216A2527600B3920F /* NavigationTopViewController.m */; };
+		7033BCAB16A2527600B3920F /* SampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC9416A2527600B3920F /* SampleTableViewController.m */; };
+		7033BCAC16A2527600B3920F /* SecondTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC9616A2527600B3920F /* SecondTopViewController.m */; };
+		7033BCAD16A2527600B3920F /* ThirdTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC9816A2527600B3920F /* ThirdTopViewController.m */; };
+		7033BCAE16A2527600B3920F /* UnderRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC9A16A2527600B3920F /* UnderRightViewController.m */; };
+		7033BCAF16A2527600B3920F /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC9E16A2527600B3920F /* ECSlidingViewController.m */; };
+		7033BCB016A2527600B3920F /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BCA016A2527600B3920F /* UIImage+ImageWithUIView.m */; };
+		709A71A116A25BA700DA3C37 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709A71A016A25BA700DA3C37 /* SplashViewController.m */; };
+		709A71A416A2625300DA3C37 /* Splash_Page_Image_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709A71A216A2625300DA3C37 /* Splash_Page_Image_1.jpg */; };
+		709A71A516A2625300DA3C37 /* Splash_Page_Image_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709A71A316A2625300DA3C37 /* Splash_Page_Image_2.jpg */; };
+		709A71AB16A2779200DA3C37 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709A71AA16A2779200DA3C37 /* FacebookSDK.framework */; };
+		709A71AD16A2782200DA3C37 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 709A71AC16A2782200DA3C37 /* FacebookSDKResources.bundle */; };
+		709A71AF16A2784500DA3C37 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 709A71AE16A2784500DA3C37 /* FBUserSettingsViewResources.bundle */; };
+		709A71B216A2788500DA3C37 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709A71B016A2788500DA3C37 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		709A71B316A2788500DA3C37 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709A71B116A2788500DA3C37 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		709A71B516A2789900DA3C37 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709A71B416A2789900DA3C37 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		709A71B716A27BC700DA3C37 /* FB_Connect_Using_FB_Glowy.png in Resources */ = {isa = PBXBuildFile; fileRef = 709A71B616A27BC700DA3C37 /* FB_Connect_Using_FB_Glowy.png */; };
+		709A71BA16A27E4B00DA3C37 /* Twitter_Connect_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 709A71B816A27E4B00DA3C37 /* Twitter_Connect_Image.png */; };
+		709A71BB16A27E4B00DA3C37 /* FB_Connect_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 709A71B916A27E4B00DA3C37 /* FB_Connect_Image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2750E76C14CDB0DF007727A0 /* ECSlidingViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECSlidingViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2750E77014CDB0DF007727A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2750E77214CDB0DF007727A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2750E77414CDB0DF007727A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27FC94E214D105C60000B18C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7033BC8216A2527600B3920F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7033BC8316A2527600B3920F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7033BC8416A2527600B3920F /* TreeHouse-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TreeHouse-Info.plist"; sourceTree = "<group>"; };
+		7033BC8516A2527600B3920F /* TreeHouse-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TreeHouse-Prefix.pch"; sourceTree = "<group>"; };
+		7033BC8716A2527600B3920F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7033BC8816A2527600B3920F /* FirstTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTopViewController.h; sourceTree = "<group>"; };
+		7033BC8916A2527600B3920F /* FirstTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTopViewController.m; sourceTree = "<group>"; };
+		7033BC8A16A2527600B3920F /* InitialSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialSlidingViewController.h; sourceTree = "<group>"; };
+		7033BC8B16A2527600B3920F /* InitialSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialSlidingViewController.m; sourceTree = "<group>"; };
+		7033BC8C16A2527600B3920F /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		7033BC8D16A2527600B3920F /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		7033BC8E16A2527600B3920F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7033BC8F16A2527600B3920F /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		7033BC9016A2527600B3920F /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		7033BC9116A2527600B3920F /* NavigationTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationTopViewController.h; sourceTree = "<group>"; };
+		7033BC9216A2527600B3920F /* NavigationTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationTopViewController.m; sourceTree = "<group>"; };
+		7033BC9316A2527600B3920F /* SampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleTableViewController.h; sourceTree = "<group>"; };
+		7033BC9416A2527600B3920F /* SampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTableViewController.m; sourceTree = "<group>"; };
+		7033BC9516A2527600B3920F /* SecondTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTopViewController.h; sourceTree = "<group>"; };
+		7033BC9616A2527600B3920F /* SecondTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTopViewController.m; sourceTree = "<group>"; };
+		7033BC9716A2527600B3920F /* ThirdTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTopViewController.h; sourceTree = "<group>"; };
+		7033BC9816A2527600B3920F /* ThirdTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTopViewController.m; sourceTree = "<group>"; };
+		7033BC9916A2527600B3920F /* UnderRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderRightViewController.h; sourceTree = "<group>"; };
+		7033BC9A16A2527600B3920F /* UnderRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderRightViewController.m; sourceTree = "<group>"; };
+		7033BC9D16A2527600B3920F /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		7033BC9E16A2527600B3920F /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		7033BC9F16A2527600B3920F /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		7033BCA016A2527600B3920F /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		709A719F16A25BA700DA3C37 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		709A71A016A25BA700DA3C37 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		709A71A216A2625300DA3C37 /* Splash_Page_Image_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Splash_Page_Image_1.jpg; sourceTree = "<group>"; };
+		709A71A316A2625300DA3C37 /* Splash_Page_Image_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Splash_Page_Image_2.jpg; sourceTree = "<group>"; };
+		709A71AA16A2779200DA3C37 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		709A71AC16A2782200DA3C37 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		709A71AE16A2784500DA3C37 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		709A71B016A2788500DA3C37 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		709A71B116A2788500DA3C37 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		709A71B416A2789900DA3C37 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		709A71B616A27BC700DA3C37 /* FB_Connect_Using_FB_Glowy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FB_Connect_Using_FB_Glowy.png; sourceTree = "<group>"; };
+		709A71B816A27E4B00DA3C37 /* Twitter_Connect_Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_Connect_Image.png; sourceTree = "<group>"; };
+		709A71B916A27E4B00DA3C37 /* FB_Connect_Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FB_Connect_Image.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2750E76914CDB0DF007727A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709A71B516A2789900DA3C37 /* Social.framework in Frameworks */,
+				709A71B216A2788500DA3C37 /* Accounts.framework in Frameworks */,
+				709A71B316A2788500DA3C37 /* AdSupport.framework in Frameworks */,
+				27FC94E314D105C60000B18C /* QuartzCore.framework in Frameworks */,
+				2750E77114CDB0DF007727A0 /* UIKit.framework in Frameworks */,
+				2750E77314CDB0DF007727A0 /* Foundation.framework in Frameworks */,
+				2750E77514CDB0DF007727A0 /* CoreGraphics.framework in Frameworks */,
+				709A71AB16A2779200DA3C37 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2750E76114CDB0DF007727A0 = {
+			isa = PBXGroup;
+			children = (
+				7033BC8116A2527600B3920F /* TreeHouse */,
+				2750E76F14CDB0DF007727A0 /* Frameworks */,
+				2750E76D14CDB0DF007727A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2750E76D14CDB0DF007727A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2750E76C14CDB0DF007727A0 /* ECSlidingViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2750E76F14CDB0DF007727A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				709A71B116A2788500DA3C37 /* AdSupport.framework */,
+				709A71B016A2788500DA3C37 /* Accounts.framework */,
+				709A71B416A2789900DA3C37 /* Social.framework */,
+				709A71AE16A2784500DA3C37 /* FBUserSettingsViewResources.bundle */,
+				709A71AC16A2782200DA3C37 /* FacebookSDKResources.bundle */,
+				709A71AA16A2779200DA3C37 /* FacebookSDK.framework */,
+				2750E77414CDB0DF007727A0 /* CoreGraphics.framework */,
+				2750E77214CDB0DF007727A0 /* Foundation.framework */,
+				27FC94E214D105C60000B18C /* QuartzCore.framework */,
+				2750E77014CDB0DF007727A0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7033BC8116A2527600B3920F /* TreeHouse */ = {
+			isa = PBXGroup;
+			children = (
+				7033BC8216A2527600B3920F /* AppDelegate.h */,
+				7033BC8316A2527600B3920F /* AppDelegate.m */,
+				7033BC8416A2527600B3920F /* TreeHouse-Info.plist */,
+				7033BC8516A2527600B3920F /* TreeHouse-Prefix.pch */,
+				7033BC8616A2527600B3920F /* InfoPlist.strings */,
+				7033BC8816A2527600B3920F /* FirstTopViewController.h */,
+				7033BC8916A2527600B3920F /* FirstTopViewController.m */,
+				7033BC8A16A2527600B3920F /* InitialSlidingViewController.h */,
+				7033BC8B16A2527600B3920F /* InitialSlidingViewController.m */,
+				7033BC8C16A2527600B3920F /* iPad.storyboard */,
+				7033BC8D16A2527600B3920F /* iPhone.storyboard */,
+				709A719F16A25BA700DA3C37 /* SplashViewController.h */,
+				709A71A016A25BA700DA3C37 /* SplashViewController.m */,
+				7033BC8E16A2527600B3920F /* main.m */,
+				7033BC8F16A2527600B3920F /* MenuViewController.h */,
+				7033BC9016A2527600B3920F /* MenuViewController.m */,
+				7033BC9116A2527600B3920F /* NavigationTopViewController.h */,
+				7033BC9216A2527600B3920F /* NavigationTopViewController.m */,
+				7033BC9316A2527600B3920F /* SampleTableViewController.h */,
+				7033BC9416A2527600B3920F /* SampleTableViewController.m */,
+				7033BC9516A2527600B3920F /* SecondTopViewController.h */,
+				7033BC9616A2527600B3920F /* SecondTopViewController.m */,
+				7033BC9716A2527600B3920F /* ThirdTopViewController.h */,
+				7033BC9816A2527600B3920F /* ThirdTopViewController.m */,
+				7033BC9916A2527600B3920F /* UnderRightViewController.h */,
+				7033BC9A16A2527600B3920F /* UnderRightViewController.m */,
+				709A719C16A258B400DA3C37 /* Images */,
+				7033BC9B16A2527600B3920F /* Vendor */,
+			);
+			path = TreeHouse;
+			sourceTree = "<group>";
+		};
+		7033BC9B16A2527600B3920F /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7033BC9C16A2527600B3920F /* ECSlidingViewController */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		7033BC9C16A2527600B3920F /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7033BC9D16A2527600B3920F /* ECSlidingViewController.h */,
+				7033BC9E16A2527600B3920F /* ECSlidingViewController.m */,
+				7033BC9F16A2527600B3920F /* UIImage+ImageWithUIView.h */,
+				7033BCA016A2527600B3920F /* UIImage+ImageWithUIView.m */,
+			);
+			path = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		709A719C16A258B400DA3C37 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				709A71B616A27BC700DA3C37 /* FB_Connect_Using_FB_Glowy.png */,
+				709A71B816A27E4B00DA3C37 /* Twitter_Connect_Image.png */,
+				709A71B916A27E4B00DA3C37 /* FB_Connect_Image.png */,
+				709A71A216A2625300DA3C37 /* Splash_Page_Image_1.jpg */,
+				709A71A316A2625300DA3C37 /* Splash_Page_Image_2.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2750E76B14CDB0DF007727A0 /* ECSlidingViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2750E78414CDB0DF007727A0 /* Build configuration list for PBXNativeTarget "ECSlidingViewController" */;
+			buildPhases = (
+				2750E76814CDB0DF007727A0 /* Sources */,
+				2750E76914CDB0DF007727A0 /* Frameworks */,
+				2750E76A14CDB0DF007727A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECSlidingViewController;
+			productName = ECSlidingViewController;
+			productReference = 2750E76C14CDB0DF007727A0 /* ECSlidingViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2750E76314CDB0DF007727A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2750E76614CDB0DF007727A0 /* Build configuration list for PBXProject "TreeHouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2750E76114CDB0DF007727A0;
+			productRefGroup = 2750E76D14CDB0DF007727A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2750E76B14CDB0DF007727A0 /* ECSlidingViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2750E76A14CDB0DF007727A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7033BCA216A2527600B3920F /* TreeHouse-Info.plist in Resources */,
+				7033BCA316A2527600B3920F /* InfoPlist.strings in Resources */,
+				7033BCA616A2527600B3920F /* iPad.storyboard in Resources */,
+				7033BCA716A2527600B3920F /* iPhone.storyboard in Resources */,
+				709A71A416A2625300DA3C37 /* Splash_Page_Image_1.jpg in Resources */,
+				709A71A516A2625300DA3C37 /* Splash_Page_Image_2.jpg in Resources */,
+				709A71AD16A2782200DA3C37 /* FacebookSDKResources.bundle in Resources */,
+				709A71AF16A2784500DA3C37 /* FBUserSettingsViewResources.bundle in Resources */,
+				709A71B716A27BC700DA3C37 /* FB_Connect_Using_FB_Glowy.png in Resources */,
+				709A71BA16A27E4B00DA3C37 /* Twitter_Connect_Image.png in Resources */,
+				709A71BB16A27E4B00DA3C37 /* FB_Connect_Image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2750E76814CDB0DF007727A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7033BCA116A2527600B3920F /* AppDelegate.m in Sources */,
+				7033BCA416A2527600B3920F /* FirstTopViewController.m in Sources */,
+				7033BCA516A2527600B3920F /* InitialSlidingViewController.m in Sources */,
+				7033BCA816A2527600B3920F /* main.m in Sources */,
+				7033BCA916A2527600B3920F /* MenuViewController.m in Sources */,
+				7033BCAA16A2527600B3920F /* NavigationTopViewController.m in Sources */,
+				7033BCAB16A2527600B3920F /* SampleTableViewController.m in Sources */,
+				7033BCAC16A2527600B3920F /* SecondTopViewController.m in Sources */,
+				7033BCAD16A2527600B3920F /* ThirdTopViewController.m in Sources */,
+				7033BCAE16A2527600B3920F /* UnderRightViewController.m in Sources */,
+				7033BCAF16A2527600B3920F /* ECSlidingViewController.m in Sources */,
+				7033BCB016A2527600B3920F /* UIImage+ImageWithUIView.m in Sources */,
+				709A71A116A25BA700DA3C37 /* SplashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7033BC8616A2527600B3920F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7033BC8716A2527600B3920F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2750E78214CDB0DF007727A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-lsqlite3.0";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2750E78314CDB0DF007727A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lsqlite3.0";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2750E78514CDB0DF007727A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreeHouse/TreeHouse-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TreeHouse/TreeHouse-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-lsqlite3.0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2750E78614CDB0DF007727A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreeHouse/TreeHouse-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TreeHouse/TreeHouse-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-lsqlite3.0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2750E76614CDB0DF007727A0 /* Build configuration list for PBXProject "TreeHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2750E78214CDB0DF007727A0 /* Debug */,
+				2750E78314CDB0DF007727A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2750E78414CDB0DF007727A0 /* Build configuration list for PBXNativeTarget "ECSlidingViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2750E78514CDB0DF007727A0 /* Debug */,
+				2750E78614CDB0DF007727A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2750E76314CDB0DF007727A0 /* Project object */;
+}
