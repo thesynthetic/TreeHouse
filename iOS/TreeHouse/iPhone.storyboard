@@ -263,13 +263,13 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
-                            <view alpha="0.50000000000000011" contentMode="scaleToFill" id="SPQ-C6-O2C">
-                                <rect key="frame" x="0.0" y="403" width="322" height="57"/>
+                            <view alpha="0.50000000000000011" contentMode="scaleToFill" id="SPQ-C6-O2C" userLabel="Shaded Box View">
+                                <rect key="frame" x="0.0" y="372" width="322" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gaj-z9-z5B">
-                                <rect key="frame" x="70" y="413" width="88" height="38"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gaj-z9-z5B" userLabel="FB Login Button">
+                                <rect key="frame" x="32" y="389" width="122" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Button" image="FB_Connect_Image.png">
@@ -279,9 +279,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="openSession:" destination="TFm-eX-FhD" eventType="touchUpInside" id="Uc5-27-1mO"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="t2g-mr-sVc">
-                                <rect key="frame" x="166" y="413" width="88" height="38"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="t2g-mr-sVc" userLabel="Twitter Login Button">
+                                <rect key="frame" x="165" y="390" width="122" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Button" image="Twitter_Connect_Image.png">
@@ -358,6 +361,7 @@
         <class className="SplashViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SplashViewController.h"/>
             <relationships>
+                <relationship kind="action" name="openSession:"/>
                 <relationship kind="outlet" name="splashImageView" candidateClass="UIImageView"/>
             </relationships>
         </class>

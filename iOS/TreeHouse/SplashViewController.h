@@ -20,4 +20,6 @@
 @property (nonatomic, retain) NSArray *splashFrames;
 @property (nonatomic, retain) IBOutlet UIImageView *splashImageView;
 
+- (IBAction)openSession:(id)sender;
+
 @end

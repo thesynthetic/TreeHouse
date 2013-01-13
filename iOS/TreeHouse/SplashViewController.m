@@ -40,6 +40,16 @@
     
     [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(transitionPhotos) userInfo:nil repeats:YES];
 
+    
+    // See if we have a valid token for the current state.
+    if (FBSession.activeSession.state == FBSessionStateCreatedTokenLoaded) {
+        // To-do, show logged in view
+        NSLog(@"Facebook: Logged-in");
+    } else {
+        // No, display the login page.
+        NSLog(@"Facebook: Not Logged-In");
+    }
+    
 	// Do any additional setup after loading the view.
 }
 
@@ -118,19 +128,30 @@
     }    
 }
 
+*/
 
-- (void)openSession
+- (void)sessionStateChanged:(FBSession *)session
+                      state:(FBSessionState) state
+                      error:(NSError *)error
+{
+    
+}
+
+
+- (IBAction)openSession:(id)sender
 {
     [FBSession openActiveSessionWithReadPermissions:nil
                                        allowLoginUI:YES
                                   completionHandler:
      ^(FBSession *session,
        FBSessionState state, NSError *error) {
+
          [self sessionStateChanged:session state:state error:error];
+         
      }];
 }
 
-*/
+
 
 
 @end
