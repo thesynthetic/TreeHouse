@@ -7,6 +7,7 @@
 //
 
 #import "ECSlidingViewController.h"
+#import <FacebookSDK/FacebookSDK.h>
 
 @interface InitialSlidingViewController : ECSlidingViewController
 

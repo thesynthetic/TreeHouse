@@ -38,7 +38,7 @@
                                 nil];
     
     
-    [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(transitionPhotos) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:7.0 target:self selector:@selector(transitionPhase1) userInfo:nil repeats:YES];
 
     
     // See if we have a valid token for the current state.
@@ -54,9 +54,9 @@
 }
 
 
--(void)transitionPhotos{
+-(void)transitionPhase1{
     
-    if (splashImageIndex < [self.splashFrames count]*2 - 1){
+    if (splashImageIndex < [self.splashFrames count] - 1){
         splashImageIndex++;
     }else{
         splashImageIndex = 0;
@@ -64,18 +64,22 @@
     
     
     [UIView transitionWithView:splashImageView
-                      duration:3.0
-                       options:UIViewAnimationOptionTransitionCrossDissolve
+                    duration:1.5
+                    options:UIViewAnimationOptionTransitionCrossDissolve
                     animations:^{
-                        if (splashImageIndex % 2){
                             [splashImageView setAlpha:0.0];
-                        }
-                        else {
-                            [splashImageView setAlpha:1.0];
-                            [splashImageView setImage:[splashFrames objectAtIndex:splashImageIndex/2]];
-                        }
+                    }
+                    completion:^(BOOL finished) { [self transitionPhase2]; }];
+}
 
-
+-(void)transitionPhase2{
+    
+    [UIView transitionWithView:splashImageView
+                    duration:1.5
+                    options:UIViewAnimationOptionTransitionCrossDissolve
+                    animations:^{
+                        [splashImageView setAlpha:1.0];
+                        [splashImageView setImage:[splashFrames objectAtIndex:splashImageIndex]];
                     }
                     completion:nil];
 }

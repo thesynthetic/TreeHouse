@@ -39,6 +39,38 @@
 		709A71B716A27BC700DA3C37 /* FB_Connect_Using_FB_Glowy.png in Resources */ = {isa = PBXBuildFile; fileRef = 709A71B616A27BC700DA3C37 /* FB_Connect_Using_FB_Glowy.png */; };
 		709A71BA16A27E4B00DA3C37 /* Twitter_Connect_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 709A71B816A27E4B00DA3C37 /* Twitter_Connect_Image.png */; };
 		709A71BB16A27E4B00DA3C37 /* FB_Connect_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 709A71B916A27E4B00DA3C37 /* FB_Connect_Image.png */; };
+		70CC02E116A37A940016CEF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC8316A2527600B3920F /* AppDelegate.m */; };
+		70CC02E216A37A940016CEF4 /* FirstTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC8916A2527600B3920F /* FirstTopViewController.m */; };
+		70CC02E316A37A940016CEF4 /* InitialSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC8B16A2527600B3920F /* InitialSlidingViewController.m */; };
+		70CC02E416A37A940016CEF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC8E16A2527600B3920F /* main.m */; };
+		70CC02E516A37A940016CEF4 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC9016A2527600B3920F /* MenuViewController.m */; };
+		70CC02E616A37A940016CEF4 /* NavigationTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC9216A2527600B3920F /* NavigationTopViewController.m */; };
+		70CC02E716A37A940016CEF4 /* SampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC9416A2527600B3920F /* SampleTableViewController.m */; };
+		70CC02E816A37A940016CEF4 /* SecondTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC9616A2527600B3920F /* SecondTopViewController.m */; };
+		70CC02E916A37A940016CEF4 /* ThirdTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC9816A2527600B3920F /* ThirdTopViewController.m */; };
+		70CC02EA16A37A940016CEF4 /* UnderRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC9A16A2527600B3920F /* UnderRightViewController.m */; };
+		70CC02EB16A37A940016CEF4 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BC9E16A2527600B3920F /* ECSlidingViewController.m */; };
+		70CC02EC16A37A940016CEF4 /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033BCA016A2527600B3920F /* UIImage+ImageWithUIView.m */; };
+		70CC02ED16A37A940016CEF4 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709A71A016A25BA700DA3C37 /* SplashViewController.m */; };
+		70CC02EF16A37A940016CEF4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709A71B416A2789900DA3C37 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		70CC02F016A37A940016CEF4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709A71B016A2788500DA3C37 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		70CC02F116A37A940016CEF4 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709A71B116A2788500DA3C37 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		70CC02F216A37A940016CEF4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FC94E214D105C60000B18C /* QuartzCore.framework */; };
+		70CC02F316A37A940016CEF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750E77014CDB0DF007727A0 /* UIKit.framework */; };
+		70CC02F416A37A940016CEF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750E77214CDB0DF007727A0 /* Foundation.framework */; };
+		70CC02F516A37A940016CEF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750E77414CDB0DF007727A0 /* CoreGraphics.framework */; };
+		70CC02F616A37A940016CEF4 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709A71AA16A2779200DA3C37 /* FacebookSDK.framework */; };
+		70CC02F816A37A940016CEF4 /* TreeHouse-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7033BC8416A2527600B3920F /* TreeHouse-Info.plist */; };
+		70CC02F916A37A940016CEF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7033BC8616A2527600B3920F /* InfoPlist.strings */; };
+		70CC02FA16A37A940016CEF4 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7033BC8C16A2527600B3920F /* iPad.storyboard */; };
+		70CC02FB16A37A940016CEF4 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7033BC8D16A2527600B3920F /* iPhone.storyboard */; };
+		70CC02FC16A37A940016CEF4 /* Splash_Page_Image_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709A71A216A2625300DA3C37 /* Splash_Page_Image_1.jpg */; };
+		70CC02FD16A37A940016CEF4 /* Splash_Page_Image_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 709A71A316A2625300DA3C37 /* Splash_Page_Image_2.jpg */; };
+		70CC02FE16A37A940016CEF4 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 709A71AC16A2782200DA3C37 /* FacebookSDKResources.bundle */; };
+		70CC02FF16A37A940016CEF4 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 709A71AE16A2784500DA3C37 /* FBUserSettingsViewResources.bundle */; };
+		70CC030016A37A940016CEF4 /* FB_Connect_Using_FB_Glowy.png in Resources */ = {isa = PBXBuildFile; fileRef = 709A71B616A27BC700DA3C37 /* FB_Connect_Using_FB_Glowy.png */; };
+		70CC030116A37A940016CEF4 /* Twitter_Connect_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 709A71B816A27E4B00DA3C37 /* Twitter_Connect_Image.png */; };
+		70CC030216A37A940016CEF4 /* FB_Connect_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 709A71B916A27E4B00DA3C37 /* FB_Connect_Image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +120,8 @@
 		709A71B616A27BC700DA3C37 /* FB_Connect_Using_FB_Glowy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FB_Connect_Using_FB_Glowy.png; sourceTree = "<group>"; };
 		709A71B816A27E4B00DA3C37 /* Twitter_Connect_Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_Connect_Image.png; sourceTree = "<group>"; };
 		709A71B916A27E4B00DA3C37 /* FB_Connect_Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FB_Connect_Image.png; sourceTree = "<group>"; };
+		70CC030616A37A940016CEF4 /* ECSlidingViewController copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ECSlidingViewController copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CC030816A37A940016CEF4 /* ECSlidingViewController copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ECSlidingViewController copy-Info.plist"; path = "/Users/Ryeguy/Documents/Projects/TreeHouse/iOS/ECSlidingViewController copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +140,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70CC02EE16A37A940016CEF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CC02EF16A37A940016CEF4 /* Social.framework in Frameworks */,
+				70CC02F016A37A940016CEF4 /* Accounts.framework in Frameworks */,
+				70CC02F116A37A940016CEF4 /* AdSupport.framework in Frameworks */,
+				70CC02F216A37A940016CEF4 /* QuartzCore.framework in Frameworks */,
+				70CC02F316A37A940016CEF4 /* UIKit.framework in Frameworks */,
+				70CC02F416A37A940016CEF4 /* Foundation.framework in Frameworks */,
+				70CC02F516A37A940016CEF4 /* CoreGraphics.framework in Frameworks */,
+				70CC02F616A37A940016CEF4 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -115,6 +164,7 @@
 				7033BC8116A2527600B3920F /* TreeHouse */,
 				2750E76F14CDB0DF007727A0 /* Frameworks */,
 				2750E76D14CDB0DF007727A0 /* Products */,
+				70CC030816A37A940016CEF4 /* ECSlidingViewController copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				2750E76C14CDB0DF007727A0 /* ECSlidingViewController.app */,
+				70CC030616A37A940016CEF4 /* ECSlidingViewController copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,6 +280,23 @@
 			productReference = 2750E76C14CDB0DF007727A0 /* ECSlidingViewController.app */;
 			productType = "com.apple.product-type.application";
 		};
+		70CC02DF16A37A940016CEF4 /* TreeHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CC030316A37A940016CEF4 /* Build configuration list for PBXNativeTarget "TreeHouse" */;
+			buildPhases = (
+				70CC02E016A37A940016CEF4 /* Sources */,
+				70CC02EE16A37A940016CEF4 /* Frameworks */,
+				70CC02F716A37A940016CEF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeHouse;
+			productName = ECSlidingViewController;
+			productReference = 70CC030616A37A940016CEF4 /* ECSlidingViewController copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -250,6 +318,7 @@
 			projectRoot = "";
 			targets = (
 				2750E76B14CDB0DF007727A0 /* ECSlidingViewController */,
+				70CC02DF16A37A940016CEF4 /* TreeHouse */,
 			);
 		};
 /* End PBXProject section */
@@ -273,6 +342,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70CC02F716A37A940016CEF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CC02F816A37A940016CEF4 /* TreeHouse-Info.plist in Resources */,
+				70CC02F916A37A940016CEF4 /* InfoPlist.strings in Resources */,
+				70CC02FA16A37A940016CEF4 /* iPad.storyboard in Resources */,
+				70CC02FB16A37A940016CEF4 /* iPhone.storyboard in Resources */,
+				70CC02FC16A37A940016CEF4 /* Splash_Page_Image_1.jpg in Resources */,
+				70CC02FD16A37A940016CEF4 /* Splash_Page_Image_2.jpg in Resources */,
+				70CC02FE16A37A940016CEF4 /* FacebookSDKResources.bundle in Resources */,
+				70CC02FF16A37A940016CEF4 /* FBUserSettingsViewResources.bundle in Resources */,
+				70CC030016A37A940016CEF4 /* FB_Connect_Using_FB_Glowy.png in Resources */,
+				70CC030116A37A940016CEF4 /* Twitter_Connect_Image.png in Resources */,
+				70CC030216A37A940016CEF4 /* FB_Connect_Image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -293,6 +380,26 @@
 				7033BCAF16A2527600B3920F /* ECSlidingViewController.m in Sources */,
 				7033BCB016A2527600B3920F /* UIImage+ImageWithUIView.m in Sources */,
 				709A71A116A25BA700DA3C37 /* SplashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CC02E016A37A940016CEF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CC02E116A37A940016CEF4 /* AppDelegate.m in Sources */,
+				70CC02E216A37A940016CEF4 /* FirstTopViewController.m in Sources */,
+				70CC02E316A37A940016CEF4 /* InitialSlidingViewController.m in Sources */,
+				70CC02E416A37A940016CEF4 /* main.m in Sources */,
+				70CC02E516A37A940016CEF4 /* MenuViewController.m in Sources */,
+				70CC02E616A37A940016CEF4 /* NavigationTopViewController.m in Sources */,
+				70CC02E716A37A940016CEF4 /* SampleTableViewController.m in Sources */,
+				70CC02E816A37A940016CEF4 /* SecondTopViewController.m in Sources */,
+				70CC02E916A37A940016CEF4 /* ThirdTopViewController.m in Sources */,
+				70CC02EA16A37A940016CEF4 /* UnderRightViewController.m in Sources */,
+				70CC02EB16A37A940016CEF4 /* ECSlidingViewController.m in Sources */,
+				70CC02EC16A37A940016CEF4 /* UIImage+ImageWithUIView.m in Sources */,
+				70CC02ED16A37A940016CEF4 /* SplashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +500,42 @@
 			};
 			name = Release;
 		};
+		70CC030416A37A940016CEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreeHouse/TreeHouse-Prefix.pch";
+				INFOPLIST_FILE = "ECSlidingViewController copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-lsqlite3.0";
+				PRODUCT_NAME = "ECSlidingViewController copy";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		70CC030516A37A940016CEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreeHouse/TreeHouse-Prefix.pch";
+				INFOPLIST_FILE = "ECSlidingViewController copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-lsqlite3.0";
+				PRODUCT_NAME = "ECSlidingViewController copy";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -410,6 +553,15 @@
 			buildConfigurations = (
 				2750E78514CDB0DF007727A0 /* Debug */,
 				2750E78614CDB0DF007727A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70CC030316A37A940016CEF4 /* Build configuration list for PBXNativeTarget "TreeHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CC030416A37A940016CEF4 /* Debug */,
+				70CC030516A37A940016CEF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
