@@ -33,8 +33,8 @@
     
     splashImageIndex = 0;
     splashFrames = [NSArray arrayWithObjects:
-                                [UIImage imageNamed:@"Splash_Page_Image_1.jpg"],
                                 [UIImage imageNamed:@"Splash_Page_Image_2.jpg"],
+                                [UIImage imageNamed:@"Splash_Page_Image_1.jpg"],
                                 nil];
     
     

@@ -258,7 +258,7 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Splash_Page_Image_1.jpg" id="sxN-28-yCL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Splash_Page_Image_2.jpg" id="sxN-28-yCL">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -323,7 +323,7 @@
     </scenes>
     <resources>
         <image name="FB_Connect_Image.png" width="167" height="72"/>
-        <image name="Splash_Page_Image_1.jpg" width="500" height="800"/>
+        <image name="Splash_Page_Image_2.jpg" width="664" height="1000"/>
         <image name="Twitter_Connect_Image.png" width="167" height="72"/>
     </resources>
     <classes>
